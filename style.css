@@ -1,4 +1,46 @@
-body{
-    background-color: black;
+body {
+    background-color: #3498db;
     color: white;
+}
+
+nav {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    top: 0;
+
+}
+
+.logo-container {
+    position: absolute;
+    left: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo {
+    height: 30%;
+}
+
+.button-container {
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #95a5a6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 1%;
+    height: 50
 }
